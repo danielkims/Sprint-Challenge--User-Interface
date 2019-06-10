@@ -145,29 +145,36 @@ footer nav a {
     text-decoration: none;
 }
 
-nav {
-	margin-top: 20px;
+header {
+	width: 800px;
+	margin: 0 auto;
+}
+
+header nav {
 	display: flex;
 	width: 100%;
-	height: 60px;
+	height: 90px;
 	align-items: center;
 	justify-content: space-around;
 }
 
-nav a{
+header nav a{
 	text-decoration: none;
+	padding: 10px 2%;
 	color: black;
 }
 
 .jumbo-content{
 width: 100%;
 height: 60%;
+padding-bottom: 20px;
 align-items: center;
 justify-content: space-around;
 }
 
 .jumbo-about{
 	width: 100%;
+	padding-bottom: 20px;
 	align-items: center;
 }
 
@@ -186,7 +193,15 @@ justify-content: space-around;
 }
 
 .divider{
+	width: 800px;
 	border-bottom: 1px dashed
+}
+
+.about-page {
+	width: 780px;
+	margin: 0 auto;
+	text-align: left;
+	padding-bottom: 20px;
 }
 
 .first{
@@ -214,3 +229,21 @@ justify-content: space-around;
 .second .second-content {
 	padding-right: 4%;
 }
+
+.About nav {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.About nav {
+	display: flex;
+	width: 800px;
+	height: 90px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.About nav a{
+	text-decoration: none;
+	padding: 10px 2%;
+	color: black;
