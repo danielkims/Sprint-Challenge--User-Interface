@@ -127,9 +127,9 @@ p {
 }
 
 footer {
-    width: 780px;
+    width: 35%;
 	background: black;
-	margin: 0 39% 20px;
+	justify-content: center;
 }
 
 footer nav {
@@ -143,7 +143,8 @@ footer nav {
 
 footer nav a {
     color: white;
-    text-decoration: none;
+	text-decoration: none;
+	justify-content: center;
 }
 
 header {
@@ -244,18 +245,22 @@ h3 {
 }
 
 .border-line1{
+	padding: 5%;
 	border-bottom: 1px dashed;
 }
 
 .border-line2{
+	padding: 5%;
 	border-bottom: 1px dashed;
 }
 
 .border-line3{
+	padding: 5%;
 	border-bottom: 1px dashed;
 }
 
 .border-line4{
+	padding: 5%;
 	border-bottom: 1px dashed;
 }
 
@@ -265,8 +270,7 @@ h3 {
 }
 
 .last-content {
-	text-align: left;
-	margin: 0 39% 2px;
+	margin: auto;
 	justify-content: space-around;
 	width: 780px;
 	padding-bottom: .5%;
