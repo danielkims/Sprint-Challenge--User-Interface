@@ -127,9 +127,7 @@ p {
 }
 
 footer {
-    width: 35%;
 	background: black;
-	justify-content: center;
 }
 
 footer nav {
@@ -145,6 +143,13 @@ footer nav a {
     color: white;
 	text-decoration: none;
 	justify-content: center;
+}
+
+.about-footer {
+	width: 780px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 header {
