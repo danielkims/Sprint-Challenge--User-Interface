@@ -127,8 +127,7 @@ p {
 }
 
 footer {
-    width: 100%;
-    background: black;
+	background: black;
 }
 
 footer nav {
@@ -142,11 +141,19 @@ footer nav {
 
 footer nav a {
     color: white;
-    text-decoration: none;
+	text-decoration: none;
+	justify-content: center;
+}
+
+.about-footer {
+	width: 780px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 header {
-	width: 800px;
+	width: 780px;
 	margin: 0 auto;
 }
 
@@ -179,17 +186,26 @@ justify-content: space-around;
 }
 
 .button{
-	border-radius: 23px;
-	background: grey;
-  padding: 20px;
-  width: 125px;
-  height: 50px;
+	border-radius: 10px;
+	border: 2px solid black;
+	background: white;
+  padding: 12px 16px;
+  width: 120px;
+  height: 40px;
+}
+
+.first-p {
+	padding-bottom: 5%;
+}
+
+.second-p {
+	padding-bottom: 2%;
 }
 
 .button a{
 	text-decoration: none;
 	color: black;
-	margin: 0 auto;
+
 }
 
 .divider{
@@ -206,38 +222,73 @@ justify-content: space-around;
 
 .first{
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	margin-bottom: 20px;
-	border-bottom: 1px dashed;
+	margin: 0 40% 20px;
+	justify-content: space-around;
+	max-width: 780px;
 
 }
 
 .first .first-content{
-	width: 48%;
 	padding: 0 1%;
 	padding-bottom: 20px;
 }
 
+.top-pic {
+	padding-top: 7%;
+}
+
+h3 {
+	padding-top: 4%;
+}
+
 .second{
 	display: flex;
-	margin: 0 2% 20px;
+	margin: 0 40% 20px;
 	justify-content: space-around;
+	max-width: 780px;
+	padding-top: .5%;
+}
+
+.border-line1{
+	padding: 5%;
+	border-bottom: 1px dashed;
+}
+
+.border-line2{
+	padding: 5%;
+	border-bottom: 1px dashed;
+}
+
+.border-line3{
+	padding: 5%;
+	border-bottom: 1px dashed;
+}
+
+.border-line4{
+	padding: 5%;
 	border-bottom: 1px dashed;
 }
 
 .second .second-content {
-	padding-right: 4%;
+	padding: 0 1%;
+	padding-bottom: 3%;
+}
+
+.last-content {
+	margin: auto;
+	justify-content: space-around;
+	width: 780px;
+	padding-bottom: .5%;
 }
 
 .About nav {
-	width: 800px;
+	width: 780px;
 	margin: 0 auto;
 }
 
 .About nav {
 	display: flex;
-	width: 800px;
+	width: 780px;
 	height: 90px;
 	align-items: center;
 	justify-content: space-around;
@@ -247,3 +298,4 @@ justify-content: space-around;
 	text-decoration: none;
 	padding: 10px 2%;
 	color: black;
+}
